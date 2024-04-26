@@ -15,7 +15,9 @@ Apartir de ahi se puede probar el api con sus diferentes rutas
 
 Se puede probar mediante Postman o ThunderClient o su aplicativo de peticiones favorito enviando de la siguiente forma la estructura por ejemplo
 
-Poniendo como ruta http://localhost:8000/locations
+Poniendo como ruta  http://localhost:8000/locations
+
+Metodo post
 
 Y pasandole en el cuerpo la siguiente estructura
 {
@@ -29,7 +31,9 @@ El cual retornara los datos creados y el id con el cual fue creado
 
 Se puede probar mediante Postman o ThunderClient o su aplicativo de peticiones favorito enviando de la siguiente forma la estructura por ejemplo
 
-Poniendo como ruta http://localhost:8000/categories
+Poniendo como ruta  http://localhost:8000/categories
+
+Metodo post
 
 Y pasandole en el cuerpo la siguiente estructura
 {
@@ -41,6 +45,6 @@ El cual retornara los datos creados y el id con el cual fue creado
 
 Se puede probar mediante Postman o ThunderClient o su aplicativo de peticiones favorito enviando de la siguiente forma la estructura por ejemplo
 
-Poniendo como ruta http://localhost:8000/recommendations
+Poniendo como ruta http://localhost:8000/recommendations y metodo GET
 
 El cual devolvera 10 sugerencias de combinaciones de Ubicación - categoria que no han sido revisadas en lo ultimos 30 dias, priorizando las que nunca se han revisado
